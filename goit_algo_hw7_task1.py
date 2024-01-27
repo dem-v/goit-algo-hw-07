@@ -5,7 +5,7 @@ def get_max_value(node):
     current = node
     while current.right is not None:
         current = current.right
-    return current
+    return current.key
 
 
 if __name__ == '__main__':

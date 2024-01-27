@@ -5,7 +5,7 @@ def get_min_value(node):
     current = node
     while current.left is not None:
         current = current.left
-    return current
+    return current.key
 
 
 if __name__ == '__main__':
